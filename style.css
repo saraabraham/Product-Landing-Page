@@ -1,0 +1,178 @@
+html {
+  background-color: #a9a9a9;
+}
+@media (max-width: 100px) html {
+  font-size: 12px;
+}
+
+@media (max-width: 100px) h2 {
+  font-size: 12px;
+}
+
+#header-img {
+  width: 7vw;
+  position: relative;
+  right: 90vw;
+  bottom: 1vw;
+}
+
+h1 {
+  position: relative;
+  bottom: 7vw;
+  right: 70vw;
+}
+#nav-bar {
+  position: fixed;
+  text-align: right;
+  width: 100%;
+  height: 25%;
+  top: 0vw;
+  font-size: 1.8vw;
+  background-color: #ff9800;
+  padding: 1vw;
+  z-index: 1;
+}
+
+.nav-link {
+  color: black;
+  margin: 0px;
+  padding: 5px 0px 5px 30px;
+  position: relative;
+  bottom: 11.5vw;
+  right: 5vw;
+}
+
+h2 {
+  text-align: center;
+  position: relative;
+  bottom: 5.4vw;
+}
+
+#email {
+  position: relative;
+  bottom: 7vw;
+  left: 38vw;
+  padding: 0.5vw;
+}
+
+#img1 {
+  width: 7vw;
+  position: relative;
+  left: 11.5vw;
+  top: 1vw;
+}
+#p1 {
+  text-align: center;
+  position: relative;
+  bottom: 6.5vw;
+  right: 10vw;
+}
+#img2 {
+  width: 7vw;
+  position: relative;
+  left: 30vw;
+}
+#p1 {
+  text-align: center;
+  position: relative;
+  bottom: 6.5vw;
+  left: 1.6vw;
+}
+#h2 {
+  position: relative;
+  right: 4.5vw;
+  bottom: 11vw;
+}
+#img2 {
+  position: relative;
+  bottom: 5vw;
+}
+
+#p2 {
+  text-align: center;
+  position: relative;
+  bottom: 12vw;
+  left: 4vw;
+}
+
+#img3 {
+  position: relative;
+  bottom: 10vw;
+  width: 7vw;
+  left: 30vw;
+}
+
+#p3 {
+  text-align: center;
+  position: relative;
+  bottom: 16.5vw;
+  left: 0.1vw;
+}
+
+#h3 {
+  position: relative;
+  right: 4.5vw;
+  bottom: 15.5vw;
+}
+
+#video {
+  position: relative;
+  left: 30vw;
+  bottom: 2vw;
+}
+
+.item1 {
+  background: LightSkyBlue;
+  width: 20vw;
+  height: 20vw;
+  position: relative;
+  left: 10vw;
+}
+.item2 {
+  background: LightSalmon;
+  width: 20vw;
+  height: 20vw;
+  position: relative;
+  left: 10vw;
+}
+.item3 {
+  background: PaleTurquoise;
+  width: 20vw;
+  height: 20vw;
+  position: relative;
+  left: 10vw;
+}
+
+.container {
+  font-size: 40px;
+  min-height: 800px;
+  width: 100%;
+  display: flex;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-gap: 40px;
+  position: relative;
+  top: 10vw;
+}
+#h12 {
+  position: relative;
+  left: 6vw;
+  font-size: 2vw;
+  top: 1vw;
+}
+
+p {
+  font-size: 1.6vw;
+}
+footer {
+  text-align: center;
+}
+#submit {
+  position: relative;
+  bottom: 4vw;
+  left: 47vw;
+}
+#form {
+  position: relative;
+  top: 13vw;
+}
